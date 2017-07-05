@@ -120,4 +120,13 @@
 		</where>		
 		limit #{start}
 	</select>
+	<select id="getFlyLink" resultType="QualityGoodLink">
+		SELECT 
+			*
+		FROM cms_category a 
+		<where>
+			a.name = '飘窗广告'
+		</where>		
+		limit 1
+	</select>
 </mapper>

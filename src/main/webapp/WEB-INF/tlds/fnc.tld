@@ -105,4 +105,10 @@
     <function-class>com.thinkgem.jeesite.modules.cms.utils.CmsUtils</function-class>
     <function-signature>java.util.List getGoodLinkList(int, int)</function-signature>
   </function>
+   <function>
+    <description>获取飘窗链接</description>
+    <name>getFlyLink</name>
+    <function-class>com.thinkgem.jeesite.modules.cms.utils.CmsUtils</function-class>
+    <function-signature>java.util.List getFlyLink()</function-signature>
+  </function>
 </taglib>

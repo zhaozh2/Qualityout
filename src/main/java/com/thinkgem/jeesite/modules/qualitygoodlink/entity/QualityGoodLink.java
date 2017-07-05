@@ -22,6 +22,8 @@ public class QualityGoodLink extends DataEntity<QualityGoodLink> {
 	private int start; // 开始
 	private int end; // 结束
 	private String type; // 列号
+	private String href; // 列号
+	private String image; // 列号
 
 	public String getType() {
 		return type;
@@ -80,6 +82,22 @@ public class QualityGoodLink extends DataEntity<QualityGoodLink> {
 
 	public void setEnd(int end) {
 		this.end = end;
+	}
+
+	public String getHref() {
+		return href;
+	}
+
+	public void setHref(String href) {
+		this.href = href;
+	}
+
+	public String getImage() {
+		return image;
+	}
+
+	public void setImage(String image) {
+		this.image = image;
 	}
 
 }

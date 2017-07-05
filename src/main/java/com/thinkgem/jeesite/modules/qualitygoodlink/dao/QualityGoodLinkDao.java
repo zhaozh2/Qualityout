@@ -17,4 +17,5 @@ import com.thinkgem.jeesite.modules.qualitygoodlink.entity.QualityGoodLink;
 @MyBatisDao
 public interface QualityGoodLinkDao extends CrudDao<QualityGoodLink> {
 	public List<QualityGoodLink> findListByIndex(QualityGoodLink qualityGoodLink) ;
+	public List<QualityGoodLink> getFlyLink(QualityGoodLink qualityGoodLink) ;
 }

@@ -71,7 +71,7 @@
 				</if>)
 			</if>
 			<if test="image != null and image != ''">
-				AND a.image  = #{image}
+				AND a.image  != ''
 			</if>
 			<if test="createBy != null and createBy.id != null and createBy.id != ''">
 				AND a.create_by  = #{createBy.id}

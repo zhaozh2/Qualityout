@@ -56,4 +56,9 @@ public class QualityGoodLinkService extends CrudService<QualityGoodLinkDao, Qual
 		List<QualityGoodLink> list = linkdao.findListByIndex(g);
 		return list;
 	}
+	
+	public List<QualityGoodLink> getFlyLink(){
+		QualityGoodLink g = new QualityGoodLink();
+		return linkdao.getFlyLink(g);
+	}
 }

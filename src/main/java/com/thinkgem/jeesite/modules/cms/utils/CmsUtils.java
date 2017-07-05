@@ -324,4 +324,14 @@ public class CmsUtils {
         	addViewConfigAttribute(model, ca.getViewConfig());
         }
     }
+    
+    /**
+	 * 获取友情链接列表
+	 * @param number 获取数目
+	 * @return
+	 */
+	public static List<QualityGoodLink> getFlyLink(){
+		List<QualityGoodLink> list = goodlinkservice.getFlyLink();
+		return list;
+	}
 }
